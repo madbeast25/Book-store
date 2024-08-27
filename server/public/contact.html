@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Brookshire College</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+              
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="../students/login.php">LOGIN</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-us">
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>123 College St, Madurai</h5>
+                        <p>Tamil Nadu, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9025267664</h5>
+                        <p>Mon - Sat, 10 AM - 6 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>steveLevi@gmail.com</h5>
+                        <p>Administrator</p>
+                    </span>
+                </div>
+                
+            </div>
+            <!-- Contact Form -->
+            <div class="contact-col">
+                <form method="post" action="contact.php">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea name="message" rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="home-btn red-btn" name="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are committed to providing the best educational services with a focus on student success. Our team is dedicated to helping you achieve your academic goals.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.left = "0";
+        }
+        function hidemenu() {
+            navLinks.style.left = "-200px";
+        }
+    </script>
+</body>
+</html>

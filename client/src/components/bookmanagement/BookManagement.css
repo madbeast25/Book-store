@@ -1,0 +1,83 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .books-container {
+    margin-top: 20px;
+  }
+  
+  .books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33% - 20px); /* Adjust width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .download-btn {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .download-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .card-actions {
+    margin-top: 10px;
+  }
+  
+  .card-actions button {
+    margin-right: 10px;
+  }
+  

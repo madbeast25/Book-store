@@ -1,0 +1,83 @@
+footer {
+    background: #2c3e50; /* Primary color */
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: 0.9rem;
+    color: #ecf0f1; /* Gray color */
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+
+.footer_container article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+.footer_container article p {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+.footer_container article h4 {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    color: #ecf0f1; /* Ensure header color matches the theme */
+}
+
+.footer_container article a {
+    color: #ecf0f1; /* Gray color for links */
+    text-decoration: none;
+    margin-bottom: 0.5rem; /* Spacing between links */
+    transition: color 0.3s ease-in-out;
+}
+
+.footer_container article a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+.footer_socials {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer_socials a {
+    background: #ecf0f1; /* Gray color */
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer_socials a svg {
+    color: #34495e; /* Background color */
+}
+
+.footer_socials a:hover {
+    border-color: #ecf0f1; /* Gray color */
+    background: transparent;
+}
+
+.footer_copyright {
+    color: #ecf0f1; /* Gray color */
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid #7f8c8d; /* Variant color */
+    margin-top: 5rem;
+}
+
+.footer_container article a {
+    text-decoration: none;
+    color: #ecf0f1; /* Gray color for links */
+}
+
+.footer_container article a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}

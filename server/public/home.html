@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+              
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <div class="text-box">
+            <h1>The Book Corner</h1>
+            <p>"The only thing you absolutely have to know is the location of the library." — Albert Einstein</p>
+            <a href="" class="home-btn">Visit Us Know More</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="filter-section">
+            <h2>Filter Books</h2>
+            <form id="filterForm">
+                <label for="genre">Genre:</label>
+                <select id="genre" name="genre">
+                    <option value="">Select Genre</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="fantasy">Fantasy</option>
+                </select>
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" placeholder="Author's Name">
+
+                <button type="submit">Filter</button>
+            </form>
+        </section>
+
+        <section class="book-list">
+            <h2>Book List</h2>
+            <div id="booksContainer">
+                <div class="book-item">
+                    <img src="https://via.placeholder.com/150" alt="Book Title 1">
+                    <h3>Book Title 1</h3>
+                    <p>by Author 1</p>
+                    <p>$10.00</p>
+                </div>
+                <div class="book-item">
+                    <img src="https://via.placeholder.com/150" alt="Book Title 2">
+                    <h3>Book Title 2</h3>
+                    <p>by Author 2</p>
+                    <p>$15.00</p>
+                </div>
+                <div class="book-item">
+                    <img src="https://via.placeholder.com/150" alt="Book Title 3">
+                    <h3>Book Title 3</h3>
+                    <p>by Author 3</p>
+                    <p>$20.00</p>
+                </div>
+                <div class="book-item">
+                    <img src="https://via.placeholder.com/150" alt="Book Title 4">
+                    <h3>Book Title 4</h3>
+                    <p>by Author 4</p>
+                    <p>$12.00</p>
+                </div>
+                <!-- Add more books as needed -->
+            </div>
+        </section>
+    </main>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Welcome to our company! We are dedicated to providing the best services to our customers.<br> Our team consists of experienced professionals who are committed to meeting your needs and exceeding your expectations. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

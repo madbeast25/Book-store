@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <section className='login'>
+        <div className="center">
+          <h1>Login</h1>
+          <form onSubmit={handleLogin} autoComplete="off">
+            <div className="txt_field">
+              <input
+              type="email"
+               
+                name="email"
+                value={email}
+               
+                required
+              />
+              <label>Email</label>
+              <span></span>
+            </div>
+            <div className="txt_field">
+              <input
+                type="password"
+          
+                name="password"
+                value={password}
+               
+                required
+              />
+              <label>Password</label>
+              <span></span>
+            </div>
+       
+            
+            <button type="submit" className="button" name="submit">
+              Login
+            </button>
+          </form>
+        </div>
+      </section>
+</body>
+</html>
